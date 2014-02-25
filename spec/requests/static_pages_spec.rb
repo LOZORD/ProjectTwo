@@ -11,15 +11,15 @@ describe "Static pages" do
 
   describe "Blog page" do
     before { visit root_path }
-    let(:heading)    { 'Sample App' }
+    let(:heading)    { 'Blog' }
     let(:page_title) { 'Blog' }
 
     it_should_behave_like "all static pages"
-    it { should_not have_title('| Blog') }
+    #it { should_not have_title('| Blog') }
   end
 
   describe "FAQ page" do
-    before { visit help_path }
+    before { visit faq_path }
 
     let(:heading)    { 'FAQ' }
     let(:page_title) { 'FAQ' }

@@ -12,6 +12,13 @@ html {
 
 body {
   padding-top: 60px;
+	font-family: Asap, Helvetica, sans-serif;
+	background-color: #ffb2b2;
+}
+
+a:hover
+{
+	text-decoration: none;
 }
 
 section {
@@ -48,7 +55,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: $grayLight;
+  color: $blue;
 }
 
 p {
@@ -83,7 +90,7 @@ footer {
   border-top: 1px solid $grayMediumLight;
   color: $grayLight;
   a {
-    color: $gray;
+    color: $blue;
     &:hover {
       color: $grayDarker;
     }
